@@ -2,7 +2,7 @@
 name = "triangles"
 version = "0.1.0"
 edition = "2021"
-default-run = "triangles"
+default-run = "best_triangle"
 
 [dependencies]
 clap = { version = "4.4.7", features = ["derive"] }
@@ -16,3 +16,7 @@ path = "src/bin/perimeter.rs"
 [[bin]]
 name = "jsonify"
 path = "src/bin/jsonify.rs"
+
+[[bin]]
+name = "best_triangle"
+path = "src/main.rs"
