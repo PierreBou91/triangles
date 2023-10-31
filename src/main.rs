@@ -4,10 +4,10 @@ use triangles::{igc_file_to_trace, triangle_perimeter};
 #[derive(Parser, Debug)]
 #[command(version)]
 struct Args {
-    /// igc input file to calculate the perimeter of
+    /// igc input file
     file: String,
 
-    /// Comma separated list of 3 points to for a triangle
+    /// Comma separated list of 3 points to calculate the perimeter of
     points: String,
 }
 
